@@ -3,7 +3,7 @@ body {
     text-align: center;
     width: 100%;
     color: #333;
-    font-size: 1.5em;
+    font-size: 150%;
     background-color: #f9f9f7;
 }
 
@@ -20,7 +20,7 @@ div {
     border-radius: 0.5em;
     color: #333;
     text-decoration: none;
-    font-size: 0.7em;
+    font-size: 90%;
 }
 
 .button:hover {
@@ -37,7 +37,7 @@ div {
     border-radius: 0.5em;
     color: #333;
     text-decoration: none;
-    font-size: 0.7em;
+    font-size: 90%;
 }
 
 .porte_logique {

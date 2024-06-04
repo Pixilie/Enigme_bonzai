@@ -15,6 +15,10 @@ let validé = []
 
 const code = `
 def dechiffrage_cesar_recursif(texte_chiffre, dec = 0):
+    """
+    Fonction récursive qui a pour but de renvoyer tous les différents décalages dans une liste.
+    Malheureusement les instructions relatives aux variables ont été perdu" 
+    """
     if dec == 26:
         return []
     else :
@@ -27,7 +31,7 @@ def dechiffrage_cesar_recursif(texte_chiffre, dec = 0):
 
 texte_chiffre = "usvwsm"
 texte_dechiffre = dechiffrage_cesar_recursif(texte_chiffre)
-print("déchiffrages possibles :", texte_dechiffre`
+print("déchiffrages possibles :", texte_dechiffre)`
 
 function copy() {
     navigator.clipboard.writeText(code);
@@ -55,7 +59,7 @@ button.addEventListener('click', () => {
                 input_value = "";
 
                 if (good_answers === correction.length) {
-                    document.location.href = './fini/reussi.html'
+                    document.location.href = './termine/index.html'
                 }
             }
         } else {
